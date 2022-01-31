@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>CALCULADORA</h1>
+
+    <div class="calculadora">
+        <p id="conta">0</p>
+        <hr>
+
+        <button class="numero" onclick="cap_num('0')">0</button>
+        <button class="numero" onclick="cap_num('1')">1</button>
+        <button class="numero" onclick="cap_num('2')">2</button>
+        <button class="operador" onclick="cap_num('+')">+</button>
+        <button class="numero" onclick="cap_num('3')">3</button>
+        <button class="numero" onclick="cap_num('4')">4</button>
+        <button class="numero" onclick="cap_num('5')">5</button>
+        <button class="operador" onclick="cap_num('-')">-</button>
+        <button class="numero" onclick="cap_num('6')">6</button>
+        <button class="numero" onclick="cap_num('7')">7</button>
+        <button class="numero" onclick="cap_num('8')">8</button>
+        <button class="operador" onclick="cap_num('*')">*</button>
+        <button class="numero" onclick="cap_num('9')">9</button>
+        <button class="numero" onclick="cap_num('.')">.</button>
+        <button class="operador" onclick="limpar()">DEL</button>
+        <button class="operador" onclick="cap_num('/')">/</button>
+        <button class="operador" onclick="cap_num('(')">(</button>
+        <button class="operador" onclick="cap_num(')')">)</button>
+        <button id="igualdade" onclick="calcular()">=</button>
+    </div>
+
+
+</body>
+</html>
