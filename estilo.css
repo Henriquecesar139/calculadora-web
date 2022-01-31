@@ -1,0 +1,63 @@
+body {
+    background-color: gray;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.calculadora {
+    background-color: blue;
+    border-radius: 6px;
+    color: white;
+}
+
+#conta {
+    text-align: right;
+    font-size: larger;
+}
+
+button {
+    font-size: larger;
+    margin-top: 2%;
+    height: 3rem;
+}
+
+.numero {
+    background-color: yellow;
+    border-color: black;
+    border-radius: 4px;
+    width: 23%;
+    margin-left: 1%;
+    height: 3rem;
+
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+.operador {
+    color: white;
+    background-color: red;
+    border-color: black;
+    border-radius: 4px;
+    width: 23%;
+    margin-left: 1%;
+}
+
+#igualdade {
+    color: white;
+    background-color: red;
+    border-color: black;
+    border-radius: 4px;
+    width: 49%;
+    margin-left: 1%;
+}
+
+#igualdade:hover {
+    background-color: green;
+}
